@@ -1,7 +1,7 @@
 let customerName: string = 'Sai charan';
-let creditScore: number = 550;
+let creditScore: number = 650;
 let income:number = 74000.0
-let isEmployed:boolean = true;
+let isEmployed:boolean = false;
 let debtToIncomeRatio:number = 35.0;
 
 if(creditScore>750)
@@ -25,7 +25,7 @@ else if(creditScore>=650 && creditScore<=750)
         }
         else
         {
-            console.log(`Loan is denied as ${customerName} is employed: ${isEmployed}`);
+            console.log(`Loan is denied as: "is ${customerName} employed: ${isEmployed}"`);
         }
     }
     else
