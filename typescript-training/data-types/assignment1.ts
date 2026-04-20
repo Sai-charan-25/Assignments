@@ -79,6 +79,10 @@ console.log(`Number of employees in a company: ${empCount}`);
 let time = new Date();
 console.log(`time of an event:${time.toLocaleTimeString().substring(0,4)} ${time.toLocaleTimeString().substring(8,10)}`);
 
+let ctime = date.setTime(230)
+console.log(ctime);
+
+
 //17. Name of a country: "United States"
 
 let country:String = 'United States';
